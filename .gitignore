@@ -1,0 +1,42 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Datasets
+datasets/
+
+# Generated experimental results and intermediate files
+outputs/
+Equal_ALR_Single_SCC_Experiment/
+gain_drop_analysis_CP95/
+Realized_SCCE_Bound_Single_SCC_Experiment/
+SCCE_Epsilon_Target_Single_SCC_Experiment/
+Validation_Size_CP_Clean/
+Validation_Size_CP_Experiment/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Original research project Excel outputs
+All_Individual_SCC_Test_Results.xlsx
+All_Individual_SCC_Validation_Results.xlsx
+SCC_SCCE_Test_Results.xlsx
+SCC_SCCE_Validation_Results.xlsx
+
+# Keep selected Excel comparison workbooks in Results/
+!Results/
+!Results/*.xlsx

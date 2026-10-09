@@ -1,0 +1,11 @@
+# Numerical computing
+numpy>=1.24
+
+# Data processing and CSV handling
+pandas>=2.0
+
+# Statistical functions and Clopper-Pearson confidence bounds
+scipy>=1.10
+
+# Excel workbook generation and formatting
+openpyxl>=3.1
